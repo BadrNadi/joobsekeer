@@ -35,7 +35,7 @@ similarity = pickle.load(open('similarity.pkl','rb'))
 
 toon_list = movies['jobtitle'].values
 selected_toon = st.selectbox(
-    "Type or select a Webtoon from the dropdown",
+    "Type or select a job from the dropdown",
     toon_list
 )
 
